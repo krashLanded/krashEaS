@@ -7,6 +7,7 @@ body {
     width: 531px;
     border: solid #F7CAC9;
     margin: auto;
+    margin-bottom: 50px;
   
 }
 .gridBox {
@@ -28,4 +29,17 @@ body {
     padding-bottom: 20px;
 
     
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonArea {
+    display: flex;
+    flex-direction: row;
+    width: 60px;
+    margin: auto;
+    gap: 10px;
 }
