@@ -1,7 +1,23 @@
 const container = document.querySelector('.container');
+const clearButton = document.createElement('button');
+clearButton.textContent = 'Clear';
+const eraseButton = document.createElement('button');
+eraseButton.textContent = 'Erase';
+const buttonArea = document.querySelector('.buttonArea');
+buttonArea.appendChild(clearButton);
+buttonArea.appendChild(eraseButton);
 
-for (i = 0; i < 256; i++) {
-    let gridBox = document.createElement('div');
-    gridBox.classList.add('gridBox');
-    container.appendChild(gridBox);
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
