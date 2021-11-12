@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+.container {
+    height: 531px;
+    width: 531px;
+    border: solid #F7CAC9;
+    margin: auto;
+  
+}
+.gridBox {
+    border: solid #c7c4bb 1.6px;
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+.header {
+    background-color: #F7CAC9;
+    margin-bottom: 70px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+    
+}
